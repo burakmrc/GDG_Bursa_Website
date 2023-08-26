@@ -1,0 +1,65 @@
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1 {
+  color: #2c2c2c;
+  font-family: Google Sans;
+  font-size: 221px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+}
+
+.vector-icon {
+  position: relative;
+  width: 23.84px;
+  height: 23.84px;
+  align-items: center;
+}
+.button {
+  position: relative;
+  border-radius: 33.27px;
+  background-color: #2c2c2c;
+  width: 418.61px;
+  height: 66.53px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 16.633663177490234px 21.069307327270508px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 26.26px;
+  color: #fff;
+}
+.container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.beni {
+  color: #777;
+}
+.eve-gtr {
+  text-decoration: underline;
+}
+.beni-eve-gtr-container {
+  font-size: 22.15px;
+  font-weight: 500;
+  text-align: center;
+  color: #272727;
+  margin-top: 35px;
+}
+.button-text {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+a:link {
+  color: #272727;
+}
+

@@ -7,10 +7,10 @@ body {
 h1 {
   color: #2c2c2c;
   font-family: Google Sans;
-  font-size: 76.229px;
+  font-size: 76.23px;
   font-style: normal;
   font-weight: 700;
-  line-height: 0; /* 0px */
+  line-height: 74.24px;
 }
 p {
   color: #2c2c2c;
@@ -18,12 +18,11 @@ p {
   font-size: 21.766px;
   font-style: normal;
   font-weight: 400;
-  line-height: 0; /* 0px */
 }
 nav {
   justify-content: space-between;
   position: relative;
-  margin: 2.5rem 5rem 5rem 5rem;
+  margin: 2.5rem 5rem 2.5rem 5rem;
 }
 nav a {
   color: #2c2c2c;
@@ -33,7 +32,6 @@ nav a {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.366px;
-  /* margin: 0 20px; */
 }
 
 .navbar-elements {
@@ -72,18 +70,15 @@ nav a {
   justify-content: flex-end;
 }
 
-.title {
-  position: relative;
+/* .title {
+  position: absolute;
   font-size: 76.23px;
-  line-height: 0%;
-  font-family: 'Google Sans';
+  line-height: 75.24%;
+  font-family: "Google Sans";
   text-align: left;
   color: #2c2c2c;
-}
-
-.yenilikte {
-  margin: 0;
-}
+  font-weight: bold;
+} */
 
 .g {
   color: #e84741;
@@ -91,11 +86,35 @@ nav a {
 
 .d {
   color: #0a7cc0;
+  margin-inline: -10px;
 }
 
 .g1 {
   color: #00954b;
 }
-/* .left-container{
- display: grid;
-} */
+
+.row{
+  display: flex;
+  align-items: center;
+  margin-bottom:-130px ;
+}
+
+.devider{
+  width: 474.5px;
+  border-top: 2px solid #FAB60F;
+  margin-top: 28px;
+}
+
+.sub-paragraph{
+  margin-top: 32px;
+}
+.transition{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}

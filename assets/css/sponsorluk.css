@@ -1,0 +1,27 @@
+.sponsorluk-cont {
+  text-align: center;
+}
+.sponsorluk {
+  position: relative;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-family: Google Sans;
+  font-size: 46.95px;
+  line-height: 59.72px;
+  color: #060604;
+}
+.sponsorluk-sub {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25.36px;
+  align-items: center;
+  color: #060604;
+}
+.container-column {
+  position: relative;
+  border-radius: 14.5px;
+  background-color: #fff;
+  box-shadow: 7.906445503234863px 11.859668731689453px 23.72px
+    rgba(158, 158, 158, 0.05);
+}
