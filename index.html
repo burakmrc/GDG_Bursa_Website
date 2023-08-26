@@ -12,35 +12,58 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <div class="col-3">
-          <img src="public/gdg-logo.svg" alt="" />
-        </div>
-        <div class="col-5 navbar-elements">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Devfest</a>
-            <a class="nav-link" href="#">Blog</a>
-            <a class="nav-link" href="#">Ekip</a>
-            <a class="nav-link" href="#">Sponsorluk</a>
-            <a class="nav-link coupon" href="#"
-              >Bilet Al
-              <img class="ms-2" src="public/coupon.svg" alt="" />
-            </a>
+    <!--------------------------- ------HEADER ---------------------------------------->
+
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="col-3 nav-center">
+            <a href="gdgbursa.com.tr"
+              ><img src="public/gdg-logo.svg" alt=""
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="public/dropdown.svg" alt="" />
+          </button>
+          <div class="collapse navbar-collapse nav-center" id="navbarScroll">
+            <div class="col-5 navbar-elements">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#">Devfest</a>
+                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#">Ekip</a>
+                <a class="nav-link" href="#">Sponsorluk</a>
+                <a class="nav-link coupon" href="#"
+                  >Bilet Al
+                  <img class="ms-2" src="public/coupon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="col-4 acount navbar-nav">
+              <a class="nav-link me-5" href="#">İletişime Geç</a>
+              <a class="nav-link center" href="#"
+                >Hesap Aç
+                <img class="ms-2" src="public/mask.svg" alt="" />
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-4 acount">
-          <a class="nav-link me-5" href="#">İletişime Geç</a>
-          <a class="nav-link center" href="#"
-            >Hesap Aç
-            <img class="ms-2" src="public/mask.svg" alt="" />
-          </a>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+    <!--------------------------- ------HEADER ---------------------------------------->
+    
+    <!--------------------------- ------MAIN ---------------------------------------->
+  
     <main class="container">
-      <div class="row">
-        <div class="col-6">
+      <div class="row arrow-space">
+        <div class="col-md-6">
           <h1>
             Yenilikte <br />
             <span class="g">G</span>
@@ -52,40 +75,46 @@
           <p class="sub-paragraph">
             GDG Bursa, yerel gönüllü organizasyonlar vasıtasıyla Google'ın
             çeşitli geliştirme teknolojilerini kucaklayan etkinlikler
-            düzenleyerek, Bursa'daki geliştirici topluluğunu bir araya getirir.
+                düzenleyerek, Bursa'daki geliştirici topluluğunu bir araya getirir.
           </p>
         </div>
-        <div class="frame col-6 ps-5">
-          <img src="./public/frame.svg" alt="" />
+        <div class="col-md-6 ps-5 main-img">
+          <img src="./public/frame.svg" style="max-width: 100%;" alt="" />
         </div>
       </div>
     </main>
+      <!--------------------------- ------MAIN ---------------------------------------->
+
+      <!--------------------------- ------LINK ---------------------------------------->
     <section class="transition">
       <img src="./public/stroke-left.svg" alt="" />
       <img src="./public/stroke-right.svg" alt="" />
     </section>
     <section>
       <div class="links container">
-        <a href="https://www.linkedin.com/company/gdgbursa/" target="_blank">
-          <img src="./public/linkedin-logo.png" alt="" />
-        </a>
-        <a
+        <a class="link-item"
           href="https://instagram.com/gdgbursa?igshid=NzZhOTFlYzFmZQ=="
           target="_blank"
         >
           <img src="./public/instagram-logo.png" alt="" />
         </a>
-        <a href="https://www.youtube.com/@GDGBursa" target="_blank">
+        <a class="link-item" href="https://www.linkedin.com/company/gdgbursa/" target="_blank">
+          <img src="./public/linkedin-logo.png" alt="" />
+        </a>
+        <a class="link-item" href="https://www.youtube.com/@GDGBursa" target="_blank">
           <img src="./public/youtube-logo.png" alt="" />
         </a>
-        <a
+        <a class="link-item"
           href="https://x.com/gdgbursa?s=11&t=2-zy2IWVvgFuTn-aLhPvLA"
           target="_blank"
         >
           <img src="./public/twitter-logo.png" alt="" />
         </a>
       </div>
+          
     </section>
+      <!--------------------------- ------LINK ---------------------------------------->
+
     <script src="assets/js/script.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
