@@ -10,7 +10,6 @@ h1 {
   font-size: 76.229px;
   font-style: normal;
   font-weight: 700;
-  line-height: 0; /* 0px */
 }
 p {
   color: #2c2c2c;
@@ -18,13 +17,13 @@ p {
   font-size: 21.766px;
   font-style: normal;
   font-weight: 400;
-  line-height: 0; /* 0px */
 }
-nav{
-    justify-content: space-between;
-    position: relative;
-    margin: 2.5rem 5rem 5rem 5rem;
+nav {
+  justify-content: space-between;
+  position: relative;
+  margin: 2.5rem 0 2.5rem;
 }
+
 nav a {
   color: #2c2c2c;
   font-family: Google Sans;
@@ -33,9 +32,12 @@ nav a {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.366px;
-  /* margin: 0 20px; */
 }
-
+.nav-center {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-around;
+}
 .navbar-elements {
   color: #2c2c2c;
   font-family: Google Sans;
@@ -71,4 +73,82 @@ nav a {
   display: flex;
   justify-content: flex-end;
 }
+.g {
+  color: #e84741;
+}
 
+.d {
+  color: #0a7cc0;
+  margin-inline: -10px;
+}
+
+.g1 {
+  color: #00954b;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: -130px;
+}
+
+.devider {
+  width: 474.5px;
+  border-top: 2px solid #fab60f;
+  margin-top: 28px;
+}
+
+.sub-paragraph {
+  margin-top: 32px;
+}
+.transition {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    margin: 1rem 1rem;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .nav-center {
+    display: block;
+    flex-basis: content;
+  }
+  .acount {
+    text-align: left;
+    display: contents;
+  }
+  .nav-link {
+    margin-top: 0.5rem;
+  }
+  .links {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .link-item {
+    margin-top: 10px;
+  }
+  .main-img {
+    padding: 0 !important;
+    max-width: 93%;
+    text-align: center;
+  }
+  .devider {
+    width: 93%;
+  }
+  .transition {
+    display: flex;
+    justify-content: space-around;
+    margin:25% 0 0 0;
+  }
+}
