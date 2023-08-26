@@ -20,10 +20,10 @@ p {
   font-weight: 400;
   line-height: 0; /* 0px */
 }
-nav{
-    justify-content: space-between;
-    position: relative;
-    margin: 2.5rem 5rem 5rem 5rem;
+nav {
+  justify-content: space-between;
+  position: relative;
+  margin: 2.5rem 5rem 5rem 5rem;
 }
 nav a {
   color: #2c2c2c;
@@ -72,3 +72,30 @@ nav a {
   justify-content: flex-end;
 }
 
+.title {
+  position: relative;
+  font-size: 76.23px;
+  line-height: 0%;
+  font-family: 'Google Sans';
+  text-align: left;
+  color: #2c2c2c;
+}
+
+.yenilikte {
+  margin: 0;
+}
+
+.g {
+  color: #e84741;
+}
+
+.d {
+  color: #0a7cc0;
+}
+
+.g1 {
+  color: #00954b;
+}
+/* .left-container{
+ display: grid;
+} */
