@@ -18,10 +18,104 @@
   align-items: center;
   color: #060604;
 }
-.container-column {
-  position: relative;
-  border-radius: 14.5px;
-  background-color: #fff;
-  box-shadow: 7.906445503234863px 11.859668731689453px 23.72px
-    rgba(158, 158, 158, 0.05);
+
+
+.pricing-table-2 {
+  border: 3px solid #e5e3e3;
+  border-radius: 10px;
+  text-align: center;
+  padding: 38px 0 40px;
+  transition: 0.3s ease-in;
+  margin-bottom: 30px;
+  &:hover {
+    border-color: #197beb;
+  }
+  .price-header {
+    .title {
+      color: #282828;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+    .icon {
+      font-size: 60px;
+      line-height: 60px;
+      margin-bottom: 40px;
+      color: #197beb;
+    }
+    .price {
+      font-size: 50px;
+      line-height: 60px;
+      color: #282828;
+      font-weight: 600;
+      margin-bottom: 25px;
+      .dollar {
+        font-size: 33px;
+        line-height: 33px;
+        position: relative;
+        top: -12px;
+      }
+      .month {
+        font-size: 22px;
+        line-height: 23px;
+      }
+    }
+  }
+  .price-footer {
+    margin-top: 40px;
+    .order-btn {
+      display: inline-block;
+      width: 165px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      border: 2px solid #197beb;
+      font-size: 14px;
+      text-transform: uppercase;
+      border-radius: 25px;
+      color: #282828;
+      transition: 0.3s ease-in;
+      font-weight: 600;
+      text-decoration: none;
+      i {
+        font-size: 13px;
+        padding-left: 2px;
+      }
+      &:hover {
+        background-color: #197beb;
+        color: #fff;
+        border-color: #197beb;
+      }
+    }
+  }
+  .price-body ul {
+    margin: 0;
+    padding: 0;
+    .li {
+      list-style: none;
+      display: block;
+      color: #8997a7;
+      margin: 27px 0;
+      &:first-child {
+        margin-top: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.sponsors-list-item {
+  margin: 27px 0;
+  color: #8997a7;
+  list-style-type: none;
+}
+.order-btn:hover {
+  background-color: #197beb;
+  color: #fff !important;
+  border-color: #197beb;
+}
+.plan-container{
+  margin-top: 55px;
 }
