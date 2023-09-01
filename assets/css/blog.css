@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
 }
-.category_item {
+.blog-category_item {
   background: #eeeeed;
   border-radius: 7px;
   display: inline-flex;
@@ -56,4 +56,31 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.blog-category-text {
+  color: #222;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none !important;
+}
+.popularity {
+  color: #222;
+  font-family: Google Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blog-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.blog-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
