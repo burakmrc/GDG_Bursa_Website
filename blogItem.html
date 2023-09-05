@@ -16,9 +16,9 @@
     />
   </head>
   <body>
-    <!--------------------------- ------HEADER ---------------------------------------->
+     <!--------------------------- ------HEADER ---------------------------------------->
 
-    <header>
+     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <div class="col-3 nav-center">
@@ -38,20 +38,20 @@
           <div class="collapse navbar-collapse nav-center" id="navbarScroll">
             <div class="col-5 navbar-elements">
               <div class="navbar-nav">
-                <a class="nav-link" href="gdgbursa.com.tr">Devfest</a>
-                <a class="nav-link" href="gdgbursa.com.tr">Blog</a>
-                <a class="nav-link" href="gdgbursa.com.tr">Ekip</a>
-                <a class="nav-link" target="_blank" href="sponsorluk.html"
+                <a class="nav-link" href="https://devfest.gdgbursa.com.tr" target="_blank">Devfest</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="team.html">Ekip</a>
+                <a class="nav-link" href="sponsorluk.html"
                   >Sponsorluk</a
                 >
-                <a class="nav-link coupon" href="#"
+                <a class="nav-link coupon" href="https://devfest.gdgbursa.com.tr" target="_blank"
                   >Bilet Al
                   <img class="ms-2" src="public/coupon.svg" alt="" />
                 </a>
               </div>
             </div>
             <div class="col-4 acount navbar-nav">
-              <a class="nav-link me-5" href="#">İletişime Geç</a>
+              <a class="nav-link me-5" href="#" id="iletisimBtn">İletişime Geç</a>
               <a class="nav-link center" href="#"
                 >Hesap Aç
                 <img class="ms-2" src="public/mask.svg" alt="" />
@@ -62,6 +62,48 @@
       </nav>
     </header>
     <!--------------------------- ------HEADER ---------------------------------------->
+
+    <!--------------------------- ------LİGHTBOX ---------------------------------------->
+    <div class="lightbox" id="contact-lightbox">
+      <div class="lightbox-background">
+        <div class="lightbox-container">
+          <div class="lightbox-screen">
+            <div class="lightbox-screen-body">
+              <div class="lightbox-screen-body-item left">
+                <div class="lightbox-app-title">
+                  <span>İLETİŞİME</span>
+                  <span>GEÇ</span>
+                </div>
+                <div class="lightbox-app-contact"></div>
+                <img class="lightbox-image" src="./public/icon-gdg.png" alt="">
+              </div>
+              <div class="lightbox-screen-body-item">
+                <div class="lightbox-app-form">
+                  <div class="lightbox-app-form-group">
+                    <input class="lightbox-app-form-control" placeholder="Ad Soyad" />
+                  </div>
+                  <div class="lightbox-app-form-group">
+                    <input class="lightbox-app-form-control" placeholder="Email" />
+                  </div>
+                  <div class="lightbox-app-form-group">
+                    <input class="lightbox-app-form-control" placeholder="Konu" />
+                  </div>
+                  <div class="lightbox-app-form-group message">
+                    <textarea class="lightbox-app-form-control" id="textarea" placeholder="Neler Düşünüyorsun..." cols="30" rows="3"></textarea>
+                  </div>
+                  <div class="lightbox-app-form-group buttons">
+                    <button class="lightbox-app-form-button close-lightbox">ÇIKIŞ</button>
+                    <button class="lightbox-app-form-button">GÖNDER</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------- ------LİGHTBOX ---------------------------------------->
+
     <div class="container">
         <div class="card ">
           <img src="https://placehold.co/1600x900" class="card-img" alt="...">
