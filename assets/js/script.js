@@ -44,7 +44,7 @@ uye2.forEach((uyeDiv) => {
     const img = uyeDiv.querySelector("img");
 
     // Eski resim src'sini ayarlayın
-    const eskiFoto = "./public/esmanur-yapay-zeka.jpg";
+    const eskiFoto = "./public/esmanur-yapay-zeka.png";
     img.src = eskiFoto;
   });
 });
@@ -106,7 +106,7 @@ uye5.forEach((uyeDiv) => {
     const img = uyeDiv.querySelector("img");
 
     // Eski resim src'sini ayarlayın
-    const eskiFoto = "./public/kadir-yapay-zeka.jpg";
+    const eskiFoto = "./public/kadir-yapay-zeka.png";
     img.src = eskiFoto;
   });
 });
@@ -126,7 +126,7 @@ uye6.forEach((uyeDiv) => {
     const img = uyeDiv.querySelector("img");
 
     // Eski resim src'sini ayarlayın
-    const eskiFoto = "./public/dilara-yapay-zeka.jpg";
+    const eskiFoto = "./public/dilara-yapay-zeka.png";
     img.src = eskiFoto;
   });
 });
@@ -146,7 +146,7 @@ uye7.forEach((uyeDiv) => {
     const img = uyeDiv.querySelector("img");
 
     // Eski resim src'sini ayarlayın
-    const eskiFoto = "./public/mehmetcan-yapay-zeka.jpg";
+    const eskiFoto = "./public/mehmetcan-yapay-zeka.png";
     img.src = eskiFoto;
   });
 });
