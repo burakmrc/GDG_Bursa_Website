@@ -425,6 +425,9 @@ nav a {
   width: 100%;
   justify-content: flex-end;
 }
+.blog-text{
+  font-size: 22px;
+}
 
 @media only screen and (max-width: 768px) {
   nav {
@@ -496,5 +499,10 @@ nav a {
     justify-content: space-around;
     align-items: center;
     border: var(--bs-border-width) solid var(--bs-border-color);
+  }
+  .blog-text{
+    padding: 25px !important;
+    width: auto;
+    font-size: 20px;
   }
 }
