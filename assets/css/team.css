@@ -166,6 +166,19 @@ h3 {
 .our-team:hover .team-content .post {
   transition-delay: 0.3s;
 }
+.photo-container .hover-image {
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0;
+ display: none;
+ transition: opacity 0.3s ease;
+}
+
+/* Profil fotoğrafının üzerine gelindiğinde, farklı fotoğrafı göster */
+.photo-container:hover .hover-image {
+  display: block;
+}
 
 @media screen and (max-width: 990px) {
   .our-team {
