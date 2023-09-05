@@ -429,6 +429,192 @@ nav a {
   font-size: 22px;
 }
 
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.lightbox-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.lightbox-container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.lightbox-background {
+  display: flex;
+  font-size: 12px;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+
+.lightbox-screen {
+  position: relative;
+  background: #3e3e3e;
+  border-radius: 15px;
+}
+
+.lightbox-screen:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.lightbox-screen-body {
+  display: flex;
+}
+
+.lightbox-screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.lightbox-screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+}
+.lightbox-image{
+  width: 200px;
+}
+
+.lightbox-app-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* color: #ea1d6f; */
+  color:#e84741;;
+  font-size: 26px;
+}
+
+.lightbox-app-title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 50px;
+  height: 4px;
+  background: #e84741;
+}
+
+.lightbox-app-contact {
+  margin-top: auto;
+  font-size: 8px;
+  color: #888;
+}
+
+.lightbox-app-form-group {
+  margin-bottom: 15px;
+}
+
+/* .app-form-group.message {
+  margin-top: 40px;
+} */
+
+.lightbox-app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.lightbox-app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.lightbox-app-form-control::placeholder {
+  color: #666;
+}
+
+.lightbox-app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.lightbox-app-form-button {
+  background: none;
+  border: none;
+  /* color: #ea1d6f; */
+  color: #e84741;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.lightbox-app-form-button:hover {
+  color: #b9134f;
+}
+
+
+@media screen and (max-width: 520px) {
+  .lightbox-screen-body {
+    flex-direction: column;
+  }
+
+  .lightbox-screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .lightbox-app-title {
+    flex-direction: row;
+  }
+
+  .lightbox-app-title span {
+    margin-right: 12px;
+  }
+
+  .lightbox-app-title:after {
+    display: none;
+  }
+  .lightbox-image{
+    width: 80px;
+    margin-top: 10px;
+  }
+  .lightbox-screen-body-item{
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lightbox-screen-body {
+    padding: 40px;
+  }
+
+  .lightbox-screen-body-item {
+    padding: 0;
+  }
+}
+
+
+
 @media only screen and (max-width: 768px) {
   nav {
     margin: 1rem 1rem;

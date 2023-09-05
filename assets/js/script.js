@@ -150,3 +150,18 @@ uye7.forEach((uyeDiv) => {
     img.src = eskiFoto;
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const contactButton = document.getElementById("iletisimBtn");
+  const lightbox = document.getElementById("contact-lightbox");
+  const closeLightboxButton = lightbox.querySelector(".close-lightbox");
+
+  contactButton.addEventListener("click", function () {
+    lightbox.style.display = "block";
+  });
+
+  closeLightboxButton.addEventListener("click", function () {
+    lightbox.style.display = "none";
+  });
+});
